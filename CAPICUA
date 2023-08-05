@@ -1,0 +1,26 @@
+n = int(input("Ingresar el tamaño de la lista: "))
+lista = []
+
+i = 1
+while i <= n:
+    numero = int(input(f"Ingresar el número {i}: "))
+    lista.append(numero)
+    i = i + 1
+
+capicuas = []
+i = 0
+while i < n:
+    num = lista[i]
+    temp = num
+    reverse = 0
+    while temp != 0:
+        digito = temp % 10
+        reverse = reverse * 10 + digito
+        temp = temp // 10
+    if num == reverse:
+        capicuas.append(num)
+    i = i + 1
+
+print("Números capicúas encontrados:")
+for capicua in capicuas:
+    print(capicua)
