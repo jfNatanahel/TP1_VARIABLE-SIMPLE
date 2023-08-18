@@ -3,7 +3,7 @@ k=int(input("Ingresar el numero a determinar hasta donde llegar: "))
 i=1
 s=0
 
-while s<=k and band==0:
+while s<k:
     s=s+i
     i=i+1
 i=i-1
