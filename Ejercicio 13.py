@@ -42,3 +42,5 @@ print("Cantidad de alumnos de otras provincias: ", c_otro)
 print("Cantidad de alumnos con edades entre 21 y 25: ", e_cu)
 print("Cantidad de alumnos mayores a 25: ", e_m25)
 print("Cantidad de alumnos mayores a 21 con trabajo: ", t_t)
+
+#Codigo mejorado CHATGTP
