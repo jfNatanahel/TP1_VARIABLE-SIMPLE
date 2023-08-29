@@ -29,7 +29,7 @@ vendedor_menos_vendio=0
 #codigo3=pedro
 #codigo4=julieta
 #codigo5=rosa
-while i>=5:
+while i<=5:
     monto=int(input("Ingresar monto: "))
     codigo=int(input("Ingresar codigo: "))
     if codigo==1:
@@ -42,6 +42,7 @@ while i>=5:
         monto4=monto
     if codigo==5:
         monto5=monto
+    i=i+1
 #a)Total de seguros vendidos
 total_seguros_vendidos=monto1+monto2+monto3+monto4+monto5
 #b)Promedio de ventas 
@@ -68,8 +69,40 @@ if monto4<monto1 and monto4<monto2 and monto4<monto3 and monto4<monto5:
     vendedor_mas_vendio=monto4
 if monto5<monto1 and monto5<monto2 and monto5<monto3 and monto5<monto4:
     vendedor_mas_vendio=monto5
+# Determinar los vendedores por debajo y por encima del promedio
+vendedores_debajo_promedio = ""
+vendedores_encima_promedio = ""
+
+if monto1 < promedio_ventas:
+    vendedores_debajo_promedio += "Maria "
+else:
+    vendedores_encima_promedio += "Maria "
+
+if monto2 < promedio_ventas:
+    vendedores_debajo_promedio += "Juan "
+else:
+    vendedores_encima_promedio += "Juan "
+
+if monto3 < promedio_ventas:
+    vendedores_debajo_promedio += "Pedro "
+else:
+    vendedores_encima_promedio += "Pedro "
+
+if monto4 < promedio_ventas:
+    vendedores_debajo_promedio += "Julieta "
+else:
+    vendedores_encima_promedio = vendedores_encima_promedio+"Julieta "
+
+if monto5 < promedio_ventas:
+    vendedores_debajo_promedio += "Rosa"
+else:
+    vendedores_encima_promedio += "Rosa"
+
+
 # MOSTRAR RESULTADOS
-print(total_seguros_vendidos)
-print(promedio_ventas)
-print(vendedor_menos_vendio)
-print(vendedor_mas_vendio)
+print("Total de seguros vendidos:", total_seguros_vendidos)
+print("Promedio de ventas:", promedio_ventas)
+print("Vendedor que menos vendió:", vendedor_menos_vendio)
+print("Vendedor que más vendió:", vendedor_mas_vendio)
+print("Vendedor que esta por encima del promedio:", vendedores_encima_promedio)
+print("Vendedor que esta por debajo del promedio:", vendedores_debajo_promedio)
