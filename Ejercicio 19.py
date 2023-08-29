@@ -1,9 +1,34 @@
+"""
+Un empresa que vende seguros tiene 5 vendedores (Maria, Juan , Pedro , Julieta y Rosa). Mes a mes se desea saber
+los resultados de las ventas y el desempeño de los vendedores. La empresa cuenta a fin de mes con un lista con
+la siguiente informacion: codigo del vendedor (1:Maria , 2:Juan, 3:Pedro, 4:Julieta, 5:Rosa) y monto de la venta
+se desea obtener:
+a)total de seguros vendidos
+b)promedio de ventas que deberia haber vendido c/vendedor
+c)Vendedor que mas vendio
+d) Vendedor que menos vendio.
+e) Vendedores que estan por debajo del promedio.
+f) Vendores que estan por encima del promedio.
+Ejemplo:
+Codigo 1 - Monto=2000 , Nombre= Maria
+Codigo 2 - Monto=1200 , Nombre= Juan
+Codigo 3 - Monto= 3000 , Nombre= Pedro
+Codigo 4 - Monto= 1500 , Nombre= Julieta
+Codigo 5 - Monto=3200 , Nombre= Rosa
+"""
 i=1
-codigo1=maria
-codigo2=juan
-codigo3=pedro
-codigo4=julieta
-codigo5=rosa
+monto1=0
+monto2=0
+monto3=0
+monto4=0
+monto5=0
+vendedor_mas_vendio=0
+vendedor_menos_vendio=0
+#codigo1=maria
+#codigo2=juan
+#codigo3=pedro
+#codigo4=julieta
+#codigo5=rosa
 while i>=5:
     monto=int(input("Ingresar monto: "))
     codigo=int(input("Ingresar codigo: "))
