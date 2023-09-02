@@ -1,3 +1,12 @@
+"""
+A una fiesta asistieron personas de diferentes edades y sexos. Construir un
+algoritmos dadas las edades y sexos de las personas. Calcular :
+- Cantidad de personas que asistieron a la fiesta
+- Cantidad de hombres y mujeres
+- Promedio de edades por sexo
+- La edad de la persona más joven que asistió
+Ingresar datos hasta una edad sea cero.
+"""
 band=0
 i=0
 ch=0

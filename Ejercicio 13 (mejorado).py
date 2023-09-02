@@ -1,3 +1,9 @@
+"""Se necesita diseñar un programa para realizar una encuesta entre los alumnos
+ingresantes de la Facultad. La encuesta debe arrojar como resultado el total de alumnos, la
+cantidad de la ciudad de Salta, del Interior y de otras provincias; las edades comprendidas
+entre >25, 25-21 ,18-21,<18. En el caso de personas mayores a 21 se le deberá preguntar y
+contar cuantos de ellos tienen trabajo.
+Nota: Cuando el alumno sea vacío debe salir del programa y mostrar los resultados"""
 total_alumnos = 0
 ciudad_salta = 0
 interior = 0

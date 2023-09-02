@@ -1,4 +1,4 @@
-#Se ingresan 5 notas de n alumnos, calcular y mostrar las dos perones notas de ellos.
+#Se ingresan 5 notas de n alumnos, calcular y mostrar las dos peores notas de ellos.
 n = int(input("Ingresar cantidad de alumnos: "))
 i = 1
 
