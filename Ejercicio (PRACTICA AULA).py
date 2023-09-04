@@ -1,4 +1,13 @@
 #<>
+"""
+Ingersar un numero de dni y sexo y obtener el cuit.
+a)Validar y mostrar el numero. Es correcto (longitud=8)
+b)Si la validacion es correcta, generar y mostrar el cuit.
+____FORMULA
+a) si el dni es par, sumar al ultimo digito el valor "2".
+b) si el dni es impar, sumar al ultimo digito el valor "1".
+c) si en cualquier caso el resultado es >=10, sumar sus digitos.
+"""
 dni=int(input("Ingresar el numero de dni: "))
 sexo=int(input("Ingresar el sexo 0=femenino/1=masculino: "))
 longitud=0

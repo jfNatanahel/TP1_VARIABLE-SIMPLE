@@ -4,18 +4,18 @@ i = 1
 
 while i <= n:
     j = 1
-    peor_nota1 = int(input("Ingresar nota: "))
-    peor_nota2 = int(input("Ingresar nota: "))
+    peor_nota1 = 101
+    peor_nota2 = 101
 
-    while j <= 3:
+    while j <= 5:
         nota = int(input("Ingresar nota: "))
 
         if nota < peor_nota1:
             peor_nota2 = peor_nota1
             peor_nota1 = nota
-        elif nota < peor_nota2:
-            peor_nota2 = nota
-
+        else:
+            if nota < peor_nota2:
+                peor_nota2=nota
         j += 1
 
     print(f"Las dos peores notas del alumno {i} son: {peor_nota1} y {peor_nota2}")
