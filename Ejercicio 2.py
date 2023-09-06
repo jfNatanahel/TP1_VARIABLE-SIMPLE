@@ -1,3 +1,4 @@
+#De una lista de N números determinar el promedio de los positivos y el de los negativos.
 n=int(input("Ingresar el tamaño de la lista: "))
 c_positivos= 0
 s_positivos=0

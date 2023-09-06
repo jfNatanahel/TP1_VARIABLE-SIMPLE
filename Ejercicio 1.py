@@ -8,5 +8,5 @@ while i<=n:
     i=i+1
     if n1 > x:
         s=s+n1
-print (s)
+print ("el resultado es: ",s)
 
