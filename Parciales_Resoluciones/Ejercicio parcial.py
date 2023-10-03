@@ -22,9 +22,9 @@ if cantidad_cuotas==6:
     while i<=6:
         amortizacion= monto/6
         capital=aux_6monto-amortizacion
-        aux_6monto=capital
         interes=(aux_6monto*10)/100
         valor_cuota=amortizacion+interes
+        aux_6monto=capital
         print("El valor de la cuota es:",valor_cuota)
         i=i+1
 if cantidad_cuotas==12:
