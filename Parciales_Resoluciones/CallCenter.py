@@ -10,7 +10,7 @@ cant_capital=0
 cant_interior=0
 bandera=0
 i=1
-while bandera==1:
+while bandera==1: 
     hora=int(input("Ingresar hora: "))
     minuto=int(input("Ingresar minuto: "))
     # Verificar si la hora está dentro del rango laboral
