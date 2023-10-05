@@ -1,3 +1,4 @@
+"""
 cantidad_total_requerimientos = 0
 total_notas_resueltas = 0
 total_incidentes = 0
@@ -84,3 +85,6 @@ print("P3:", p3_porcentaje_incidentes)
 print("6. Cantidad de horas de desarrollo asignadas a cada municipio:")
 print("Municipio de San Lorenzo (SL):", horas_sl, "horas")
 print("Municipio de Vaqueros (VA):", horas_va, "horas")
+"""
+promedio=(6/10)*100
+print(promedio)
