@@ -49,12 +49,10 @@ cvc=((ud*10+ss)*10+t)
 print("El CVC es:",cvc)
 #4) Determinar de acuerdo a los dos primeros digitos de la tarjeta cual es la entidad emisora
 j=0
-cociente=0
 divisor=1000000000000000
 primeros_digitos=0
 while j<2:
     cociente=aux2_tarjeta // divisor
-    print("cociente",cociente)
     r=dni%10
     divisor=divisor//10
     j=j+1
